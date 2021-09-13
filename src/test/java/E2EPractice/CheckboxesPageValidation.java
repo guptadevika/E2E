@@ -3,14 +3,12 @@ package E2EPractice;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 import pageObject.CheckboxesPage;
-import pageObject.DropdownPage;
 import pageObject.HomePage;
 
 

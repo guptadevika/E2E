@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57251" started-at="2021-09-13T16:36:10 IST" finished-at="2021-09-13T16:37:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57251" started-at="2021-09-13T16:36:10 IST" finished-at="2021-09-13T16:37:07 IST">
+      <class name="E2EPractice.DropdownPageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.DropdownPageValidation@3cef309d]" name="initialize" is-config="true" duration-ms="21066" started-at="2021-09-13T16:36:31 IST" finished-at="2021-09-13T16:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="dropdownValidation()[pri:0, instance:E2EPractice.DropdownPageValidation@3cef309d]" name="dropdownValidation" duration-ms="3481" started-at="2021-09-13T16:36:59 IST" finished-at="2021-09-13T16:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.DropdownPageValidation@3cef309d]" name="teardown" is-config="true" duration-ms="1932" started-at="2021-09-13T16:37:05 IST" finished-at="2021-09-13T16:37:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EPractice.DropdownPageValidation -->
+      <class name="E2EPractice.CheckboxesPageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.CheckboxesPageValidation@578486a3]" name="initialize" is-config="true" duration-ms="21157" started-at="2021-09-13T16:36:10 IST" finished-at="2021-09-13T16:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="checboxesValidation()[pri:0, instance:E2EPractice.CheckboxesPageValidation@578486a3]" name="checboxesValidation" duration-ms="6922" started-at="2021-09-13T16:36:52 IST" finished-at="2021-09-13T16:36:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checboxesValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.CheckboxesPageValidation@578486a3]" name="teardown" is-config="true" duration-ms="2474" started-at="2021-09-13T16:37:03 IST" finished-at="2021-09-13T16:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EPractice.CheckboxesPageValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
