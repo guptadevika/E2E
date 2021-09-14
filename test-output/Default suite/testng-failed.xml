@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2EPractice.CheckboxesPageValidation">
+      <class name="E2EPractice.LoginPageValidation">
         <methods>
           <include name="initialize"/>
-          <include name="dropdownValidation"/>
+          <include name="teardown"/>
+          <include name="loginValidation"/>
         </methods>
-      </class> <!-- E2EPractice.CheckboxesPageValidation -->
+      </class> <!-- E2EPractice.LoginPageValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

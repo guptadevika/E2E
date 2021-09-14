@@ -8,8 +8,9 @@ import org.openqa.selenium.WebElement;
 
 public class HomePage {
 	public WebDriver driver;
-	By checkboxes=By.cssSelector("a[href*='checkboxes']");
-	By dropdown=By.cssSelector("a[href*='dropdown']");
+	private By checkboxes=By.cssSelector("a[href*='checkboxes']");
+	private By dropdown=By.cssSelector("a[href*='dropdown']");
+	private By login=By.cssSelector("a[href*='login']");
 
 public HomePage(WebDriver driver)	
 {
@@ -24,6 +25,11 @@ public WebElement checkboxesLink()
 public WebElement dropdownLink()
 {
 	return driver.findElement(dropdown);
+}
+
+public WebElement loginLink()
+{
+	return driver.findElement(login);
 }
 public String clickOnLink()
 {

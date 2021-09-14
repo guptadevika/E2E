@@ -26,4 +26,9 @@ public WebElement dropdownlist()
 	return driver.findElement(dropdown);
 }
 
+public WebElement dropdownLink()
+{
+	return driver.findElement(dropdown);
+}
+
 }

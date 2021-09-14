@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52459" started-at="2021-09-13T10:44:09Z" finished-at="2021-09-13T10:45:02Z">
+  <suite name="Suite" duration-ms="29566" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="52459" started-at="2021-09-13T10:44:09Z" finished-at="2021-09-13T10:45:02Z">
-      <class name="E2EPractice.DropdownPageValidation">
-        <test-method status="PASS" signature="dropdownValidation()[pri:0, instance:E2EPractice.DropdownPageValidation@3532ec19]" name="dropdownValidation" duration-ms="4885" started-at="2021-09-13T10:44:55Z" finished-at="2021-09-13T10:45:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownValidation -->
-      </class> <!-- E2EPractice.DropdownPageValidation -->
-      <class name="E2EPractice.CheckboxesPageValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.CheckboxesPageValidation@26653222]" name="initialize" is-config="true" duration-ms="19658" started-at="2021-09-13T10:44:09Z" finished-at="2021-09-13T10:44:29Z">
+    <test name="Test" duration-ms="29566" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:21Z">
+      <class name="E2EPractice.LoginPageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="initialize" is-config="true" duration-ms="19050" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.DropdownPageValidation@3532ec19]" name="initialize" is-config="true" duration-ms="18824" started-at="2021-09-13T10:44:29Z" finished-at="2021-09-13T10:44:48Z">
+        <test-method status="PASS" signature="loginValidation()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="loginValidation" duration-ms="8153" started-at="2021-09-14T07:04:11Z" finished-at="2021-09-14T07:04:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="checboxesValidation()[pri:0, instance:E2EPractice.CheckboxesPageValidation@26653222]" name="checboxesValidation" duration-ms="6652" started-at="2021-09-13T10:44:48Z" finished-at="2021-09-13T10:44:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checboxesValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.CheckboxesPageValidation@26653222]" name="teardown" is-config="true" duration-ms="1330" started-at="2021-09-13T10:45:00Z" finished-at="2021-09-13T10:45:01Z">
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="teardown" is-config="true" duration-ms="2273" started-at="2021-09-14T07:04:19Z" finished-at="2021-09-14T07:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.DropdownPageValidation@3532ec19]" name="teardown" is-config="true" duration-ms="985" started-at="2021-09-13T10:45:01Z" finished-at="2021-09-13T10:45:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- E2EPractice.CheckboxesPageValidation -->
+      </class> <!-- E2EPractice.LoginPageValidation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
