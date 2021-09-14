@@ -11,6 +11,7 @@ public class HomePage {
 	private By checkboxes=By.cssSelector("a[href*='checkboxes']");
 	private By dropdown=By.cssSelector("a[href*='dropdown']");
 	private By login=By.cssSelector("a[href*='login']");
+	private By hovers=By.cssSelector("a[href*='hovers']");
 
 public HomePage(WebDriver driver)	
 {
@@ -30,6 +31,10 @@ public WebElement dropdownLink()
 public WebElement loginLink()
 {
 	return driver.findElement(login);
+}
+public WebElement hoversLink()
+{
+	return driver.findElement(hovers);
 }
 public String clickOnLink()
 {

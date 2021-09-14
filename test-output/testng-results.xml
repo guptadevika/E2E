@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29566" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:21Z">
+  <suite name="Default suite" duration-ms="39588" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:21:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29566" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:21Z">
-      <class name="E2EPractice.LoginPageValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="initialize" is-config="true" duration-ms="19050" started-at="2021-09-14T07:03:52Z" finished-at="2021-09-14T07:04:11Z">
+    <test name="Default test" duration-ms="39588" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:21:02Z">
+      <class name="E2EPractice.HoversPageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="initialize" is-config="true" duration-ms="22829" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:20:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginValidation()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="loginValidation" duration-ms="8153" started-at="2021-09-14T07:04:11Z" finished-at="2021-09-14T07:04:19Z">
+        <test-method status="PASS" signature="hoversValidation()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="hoversValidation" duration-ms="6138" started-at="2021-09-14T08:20:46Z" finished-at="2021-09-14T08:20:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.LoginPageValidation@68c4039c]" name="teardown" is-config="true" duration-ms="2273" started-at="2021-09-14T07:04:19Z" finished-at="2021-09-14T07:04:21Z">
+        </test-method> <!-- hoversValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="teardown" is-config="true" duration-ms="10499" started-at="2021-09-14T08:20:52Z" finished-at="2021-09-14T08:21:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- E2EPractice.LoginPageValidation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- E2EPractice.HoversPageValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
