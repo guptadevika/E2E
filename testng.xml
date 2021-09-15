@@ -10,6 +10,7 @@
       <class name="E2EPractice.CheckboxesPageValidation"/>
       <class name="E2EPractice.DropdownPageValidation"/>
       <class name="E2EPractice.HoversPageValidation"/>
+      <class name="E2EPractice.BasicAuthPageValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

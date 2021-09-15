@@ -14,6 +14,7 @@ public class LoginPage {
 	By submit=By.xpath("//*[@type='submit']");
 	By loginSuccess=By.id("flash");
 	By logout=By.cssSelector("a[href*='logout']");
+	By basicAuth=By.xpath("//h3[text()='Basic Auth']");
 	
 public LoginPage(WebDriver driver)	
 {
@@ -46,5 +47,9 @@ public WebElement loginSuccessMessage()
 public WebElement logoutButton()
 {
 	return driver.findElement(logout);
+}
+public WebElement basicAuthHeading()
+{
+	return driver.findElement(basicAuth);
 }
 }

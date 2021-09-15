@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39588" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:21:02Z">
+  <suite name="Default suite" duration-ms="21973" started-at="2021-09-15T06:25:57Z" finished-at="2021-09-15T06:26:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39588" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:21:02Z">
-      <class name="E2EPractice.HoversPageValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="initialize" is-config="true" duration-ms="22829" started-at="2021-09-14T08:20:23Z" finished-at="2021-09-14T08:20:46Z">
+    <test name="Default test" duration-ms="21973" started-at="2021-09-15T06:25:57Z" finished-at="2021-09-15T06:26:19Z">
+      <class name="E2EPractice.BasicAuthPageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EPractice.BasicAuthPageValidation@26653222]" name="initialize" is-config="true" duration-ms="20625" started-at="2021-09-15T06:25:57Z" finished-at="2021-09-15T06:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="hoversValidation()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="hoversValidation" duration-ms="6138" started-at="2021-09-14T08:20:46Z" finished-at="2021-09-14T08:20:52Z">
+        <test-method status="PASS" signature="authPageValidation()[pri:0, instance:E2EPractice.BasicAuthPageValidation@26653222]" name="authPageValidation" duration-ms="1257" started-at="2021-09-15T06:26:18Z" finished-at="2021-09-15T06:26:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hoversValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPractice.HoversPageValidation@3532ec19]" name="teardown" is-config="true" duration-ms="10499" started-at="2021-09-14T08:20:52Z" finished-at="2021-09-14T08:21:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- E2EPractice.HoversPageValidation -->
+        </test-method> <!-- authPageValidation -->
+      </class> <!-- E2EPractice.BasicAuthPageValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -12,6 +12,7 @@ public class HomePage {
 	private By dropdown=By.cssSelector("a[href*='dropdown']");
 	private By login=By.cssSelector("a[href*='login']");
 	private By hovers=By.cssSelector("a[href*='hovers']");
+	private By auth=By.cssSelector("a[href*='basic']");
 
 public HomePage(WebDriver driver)	
 {
@@ -40,5 +41,9 @@ public String clickOnLink()
 {
 	String clickOnLink=Keys.chord(Keys.CONTROL,Keys.ENTER);
 	return clickOnLink;
+}
+public WebElement basicAuthLink()
+{
+	return driver.findElement(auth);
 }
 }
