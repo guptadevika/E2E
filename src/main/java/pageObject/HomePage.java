@@ -13,7 +13,8 @@ public class HomePage {
 	private By login=By.cssSelector("a[href*='login']");
 	private By hovers=By.cssSelector("a[href*='hovers']");
 	private By auth=By.cssSelector("a[href*='basic']");
-
+	private By fileUpload=By.cssSelector("a[href*='upload']");
+	
 public HomePage(WebDriver driver)	
 {
 	this.driver=driver;
@@ -37,13 +38,18 @@ public WebElement hoversLink()
 {
 	return driver.findElement(hovers);
 }
+public WebElement basicAuthLink()
+{
+	return driver.findElement(auth);
+}
+public WebElement fileUploadLink()
+{
+	return driver.findElement(fileUpload);
+}
 public String clickOnLink()
 {
 	String clickOnLink=Keys.chord(Keys.CONTROL,Keys.ENTER);
 	return clickOnLink;
 }
-public WebElement basicAuthLink()
-{
-	return driver.findElement(auth);
-}
+
 }
